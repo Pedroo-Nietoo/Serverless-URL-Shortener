@@ -1,6 +1,6 @@
-package com.pedronieto.serverless_url_shortener.repository.implementation;
+package com.pedronieto.serverless_url_shortener.repository.impl;
 
-import com.pedronieto.serverless_url_shortener.model.UrlMapping;
+import com.pedronieto.serverless_url_shortener.domain.UrlMapping;
 import com.pedronieto.serverless_url_shortener.repository.UrlRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;

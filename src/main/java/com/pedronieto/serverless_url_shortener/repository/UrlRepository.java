@@ -1,7 +1,7 @@
 package com.pedronieto.serverless_url_shortener.repository;
 
 
-import com.pedronieto.serverless_url_shortener.model.UrlMapping;
+import com.pedronieto.serverless_url_shortener.domain.UrlMapping;
 import org.springframework.stereotype.Repository;
 
 @Repository

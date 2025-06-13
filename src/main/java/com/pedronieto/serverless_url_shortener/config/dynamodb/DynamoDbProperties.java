@@ -1,4 +1,4 @@
-package com.pedronieto.serverless_url_shortener.config;
+package com.pedronieto.serverless_url_shortener.config.dynamodb;
 
 import lombok.Getter;
 import lombok.Setter;

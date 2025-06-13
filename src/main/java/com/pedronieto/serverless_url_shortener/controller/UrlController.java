@@ -1,7 +1,7 @@
 package com.pedronieto.serverless_url_shortener.controller;
 
-import com.pedronieto.serverless_url_shortener.dto.UrlShortenerRequest;
-import com.pedronieto.serverless_url_shortener.dto.UrlShortenerResponse;
+import com.pedronieto.serverless_url_shortener.dto.url_shortener.UrlShortenerRequest;
+import com.pedronieto.serverless_url_shortener.dto.url_shortener.UrlShortenerResponse;
 import com.pedronieto.serverless_url_shortener.service.UrlService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.core.io.ClassPathResource;

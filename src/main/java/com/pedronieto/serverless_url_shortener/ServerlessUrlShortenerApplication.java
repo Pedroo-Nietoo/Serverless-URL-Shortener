@@ -1,6 +1,6 @@
 package com.pedronieto.serverless_url_shortener;
 
-import com.pedronieto.serverless_url_shortener.config.DynamoDbProperties;
+import com.pedronieto.serverless_url_shortener.config.dynamodb.DynamoDbProperties;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;

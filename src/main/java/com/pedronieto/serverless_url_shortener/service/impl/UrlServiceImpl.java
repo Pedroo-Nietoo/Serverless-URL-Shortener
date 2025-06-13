@@ -1,9 +1,10 @@
-package com.pedronieto.serverless_url_shortener.service;
+package com.pedronieto.serverless_url_shortener.service.impl;
 
-import com.pedronieto.serverless_url_shortener.dto.UrlShortenerRequest;
-import com.pedronieto.serverless_url_shortener.dto.UrlShortenerResponse;
-import com.pedronieto.serverless_url_shortener.model.UrlMapping;
+import com.pedronieto.serverless_url_shortener.dto.url_shortener.UrlShortenerRequest;
+import com.pedronieto.serverless_url_shortener.dto.url_shortener.UrlShortenerResponse;
+import com.pedronieto.serverless_url_shortener.domain.UrlMapping;
 import com.pedronieto.serverless_url_shortener.repository.UrlRepository;
+import com.pedronieto.serverless_url_shortener.service.UrlService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
@@ -13,8 +14,9 @@ import java.util.UUID;
 
 @Service
 @RequiredArgsConstructor
-public class IUrlService implements UrlService {
-    @Qualifier("urlRepository")
+public class UrlServiceImpl implements UrlService {
+
+    @Qualifier("dynamoDbUrlRepository")
     private final UrlRepository repository;
 
     @Override

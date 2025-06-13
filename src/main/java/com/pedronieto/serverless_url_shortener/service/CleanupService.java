@@ -1,6 +1,6 @@
 package com.pedronieto.serverless_url_shortener.service;
 
-import com.pedronieto.serverless_url_shortener.model.UrlMapping;
+import com.pedronieto.serverless_url_shortener.domain.UrlMapping;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.scheduling.annotation.Scheduled;

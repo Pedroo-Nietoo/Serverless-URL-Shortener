@@ -1,4 +1,4 @@
-package com.pedronieto.serverless_url_shortener.model;
+package com.pedronieto.serverless_url_shortener.domain;
 
 import lombok.*;
 import software.amazon.awssdk.enhanced.dynamodb.mapper.annotations.DynamoDbBean;
